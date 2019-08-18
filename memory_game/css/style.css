@@ -1,6 +1,6 @@
 body {
 	text-align: center;
-
+	margin: 0;
 }
 h1 {
 	font-family: raleway;
@@ -9,15 +9,12 @@ h1 {
 	font-weight: 400;
 	font-size: 45px;
 	text-transform: uppercase;
+	margin: 0;
 }
-.gameLinks {
-	font-family: raleway;
-	color: #f15b31;
-	letter-spacing: 1px;
-	font-weight: 600;
-	font-size: 18px;
-	text-transform: uppercase;
-	text-decoration: none;
+header {
+	background-color: #F15B31;
+	color: #FFFFFF;
+	padding: 30px 20px;
 }
 h2 {
 	font-family: raleway;
@@ -32,4 +29,38 @@ p {
 	line-height: 26px;
 	font-size: 18px;
 	text-transform: capitalize;
+}
+nav {
+	background-color: #00A6B3;
+	color: #FFFFFF;
+	padding: 20px 0;
+}
+a {
+	margin: 0 20px;
+	color: white;
+}
+main {
+	width: 850px;
+	margin: 35px auto;
+}
+img {
+	margin: 40px 8px 0;
+}
+footer{
+	/*margin-bottom: 10px;*/
+	height: 40px;
+}
+.gameLinks {
+	font-family: raleway;
+/*	color: #f15b31;*/
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.contact {
+	color: blue;
+	margin: 5px;
+	text-decoration: none;
 }
