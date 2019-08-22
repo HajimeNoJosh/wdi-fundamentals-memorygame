@@ -2,6 +2,11 @@ body {
 	text-align: center;
 	margin: 0;
 }
+header {
+	background-color: #F15B31;
+	color: #FFFFFF;
+	padding: 30px 20px;
+}
 h1 {
 	font-family: raleway;
 	/*color: #0d2c40;*/
@@ -11,11 +16,7 @@ h1 {
 	text-transform: uppercase;
 	margin: 0;
 }
-header {
-	background-color: #F15B31;
-	color: #FFFFFF;
-	padding: 30px 20px;
-}
+
 footer {
 	text-transform: uppercase;
 	padding: 0 20px;
